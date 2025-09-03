@@ -66,6 +66,8 @@ const sidebars: SidebarsConfig = {
           label: 'Guides',
           items: [
             'flows/guides/index',
+            'flows/guides/meter-data-collection',
+            'flows/guides/troubleshooting',
           ],
         },
         {
