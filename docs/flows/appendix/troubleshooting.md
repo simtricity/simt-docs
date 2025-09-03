@@ -386,7 +386,7 @@ SELECT * FROM meter_stats, data_stats, alert_stats;
 1. **Technical Support**: support@simtricity.com
 2. **API Status**: https://status.simtricity.com
 3. **Documentation**: https://docs.simtricity.com
-4. **GitHub Issues**: https://github.com/cepro/simt-emlite/issues
+4. **GitHub Issues**: https://github.com/simtricity/simt-emlite/issues
 
 ### Information to Provide
 

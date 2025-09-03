@@ -57,7 +57,7 @@ graph LR
 
 ```bash
 # Clone the repository
-git clone https://github.com/cepro/simt-flux.git
+git clone https://github.com/simtricity/simt-flux.git
 cd simt-flux/bess_controller/src
 
 # Build for 64-bit ARM (newer RevPi)

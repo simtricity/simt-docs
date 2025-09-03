@@ -122,50 +122,50 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Products',
           items: [
-            {
-              label: 'Getting Started',
-              to: '/docs/getting-started',
-            },
             {
               label: 'Flows',
-              to: '/docs/flows',
+              to: '/docs/flows/',
             },
             {
-              label: 'API Reference',
-              to: '/docs/api-reference',
+              label: 'Flux',
+              to: '/docs/flux/',
+            },
+            {
+              label: 'MyEnergy',
+              to: '/docs/myenergy/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Company',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Simtricity Website',
+              href: 'https://simtricity.io',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Book a Demo',
+              href: 'mailto:hello@simtricity.io',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Resources',
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/cepro/simt-flows',
+              href: 'https://github.com/simtricity',
+            },
+            {
+              label: 'API Reference',
+              to: '/docs/flows/api/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} Simtricity Limited. Building the future of local energy.`,
     },
     prism: {
       theme: prismThemes.github,

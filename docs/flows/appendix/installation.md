@@ -29,7 +29,7 @@ emop --version
 mediators --version
 
 # Or install from source for development
-git clone https://github.com/cepro/simt-emlite.git
+git clone https://github.com/simtricity/simt-emlite.git
 cd simt-emlite
 pip install -e .
 ```

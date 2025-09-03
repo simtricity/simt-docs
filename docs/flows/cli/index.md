@@ -359,4 +359,4 @@ fi
 - [API Reference](../api/)
 - [Troubleshooting Guide](../appendix/troubleshooting.md)
 - [PyPI Package](https://pypi.org/project/simt-emlite/)
-- [GitHub Repository](https://github.com/cepro/simt-emlite)
+- [GitHub Repository](https://github.com/simtricity/simt-emlite)
