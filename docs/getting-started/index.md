@@ -12,7 +12,7 @@ Welcome to Simtricity! This guide will help you get up and running with our ener
 Simtricity consists of several key components:
 
 - **Flows** - Core billing and metering platform with CLI tools
-- **Flux** - Real-time data processing 
+- **Flux** - Realtime battery dispatch and optimisation
 - **MyEnergy** - Customer portal
 
 ## Quick Start with Flows CLI
