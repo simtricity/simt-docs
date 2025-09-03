@@ -1,48 +1,18 @@
 ---
 sidebar_position: 1
-sidebar_label: Overview
 ---
 
-# Flux Platform
+# Flux Documentation
 
-Real-time data processing and streaming platform for energy management.
-
-## Overview
-
-Flux handles real-time data processing for the Simtricity platform, including:
-
-- Real-time meter data ingestion
-- Stream processing and aggregation
-- Event-driven automation
-- Time-series data management
-
-## Architecture
-
-```mermaid
-graph LR
-    A[Meter Data] --> B[Flux Ingestion]
-    B --> C[Stream Processing]
-    C --> D[Time-series DB]
-    C --> E[Event Bus]
-    E --> F[Automation Rules]
-```
-
-## Key Features
-
-- **High Throughput** - Process millions of meter readings per day
-- **Low Latency** - Sub-second processing times
-- **Scalable** - Horizontal scaling capabilities
-- **Reliable** - Guaranteed message delivery
+Energy market trading and optimization platform.
 
 ## Coming Soon
 
-Detailed documentation for Flux is currently being developed. Check back soon for:
+Documentation for Flux is currently being developed. This platform provides:
 
-- Installation guides
-- API documentation
-- Configuration examples
-- Best practices
+- **Energy Trading** - Real-time market participation
+- **Battery Optimization** - Smart charging and discharging strategies
+- **Revenue Maximization** - Automated trading algorithms
+- **Market Analytics** - Performance tracking and reporting
 
-## Contact
-
-For early access or more information about Flux, please contact our support team.
+For more information, please contact the Simtricity team.

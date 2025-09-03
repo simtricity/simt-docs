@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Simtricity Documentation',
+  title: 'Simtricity',
   tagline: 'Energy Management Platform Documentation',
   favicon: 'img/favicon.ico',
   
@@ -61,23 +61,22 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Enable versioning
-          lastVersion: 'alpha',
+          // Enable versioning with 0.0.1 and latest
+          lastVersion: 'current',
           versions: {
             current: {
-              label: 'Next (unreleased)',
-              path: 'next',
+              label: 'Latest',
+              path: '/',
               banner: 'unreleased',
             },
-            alpha: {
-              label: 'Alpha 🚧',
-              path: '/',
-              banner: 'none',
-              badge: true,
+            '0.0.1': {
+              label: '0.0.1',
+              path: '0.0.1',
+              banner: 'unmaintained',
             },
           },
           // Please change this to your repo.
-          editUrl: 'https://github.com/cepro/simt-docs/tree/main/',
+          editUrl: 'https://github.com/simtricity/simt-docs/tree/main/',
         },
         blog: false, // Disable blog for now
         theme: {

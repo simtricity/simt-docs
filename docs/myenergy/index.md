@@ -1,56 +1,18 @@
 ---
 sidebar_position: 1
-sidebar_label: Overview
 ---
 
-# MyEnergy Portal
+# MyEnergy Documentation
 
-Customer-facing web portal for energy management and billing.
-
-## Overview
-
-MyEnergy is the customer portal that provides:
-
-- **Account Management** - View and manage energy accounts
-- **Usage Monitoring** - Real-time and historical energy usage
-- **Billing & Payments** - View bills and make payments
-- **Tariff Information** - Current rates and tariff details
-- **Support** - Contact support and view FAQs
-
-## Features
-
-### For Customers
-
-- Dashboard with real-time usage
-- Monthly billing statements
-- Payment history
-- Tariff comparison tools
-- Energy saving tips
-
-### For Administrators
-
-- Customer management interface
-- Billing run controls
-- Tariff configuration
-- Report generation
-- Support ticket management
-
-## Technology Stack
-
-- Frontend: React/TypeScript
-- Backend: Flows API (PostgREST)
-- Authentication: Supabase Auth
-- Hosting: Vercel/Netlify
+Personal energy management and insights platform.
 
 ## Coming Soon
 
-Detailed documentation for MyEnergy is currently being developed. Check back soon for:
+Documentation for MyEnergy is currently being developed. This platform provides:
 
-- User guides
-- Administrator guides
-- API integration
-- Customization options
+- **Energy Dashboard** - Real-time consumption monitoring
+- **Billing & Payments** - View bills and manage payments
+- **Usage Analytics** - Historical data and trends
+- **Account Management** - Personal account settings
 
-## Contact
-
-For access to MyEnergy or more information, please contact our support team.
+For more information, please contact the Simtricity team.

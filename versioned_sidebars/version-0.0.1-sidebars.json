@@ -1,0 +1,88 @@
+{
+  "docs": [
+    "intro",
+    {
+      "type": "category",
+      "label": "Getting Started",
+      "items": [
+        "getting-started/index"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Flows",
+      "items": [
+        "flows/index",
+        "flows/architecture",
+        {
+          "type": "category",
+          "label": "Domain Model",
+          "items": [
+            "flows/domain-model/index",
+            "flows/domain-model/meters",
+            "flows/domain-model/data-collection",
+            "flows/domain-model/infrastructure",
+            "flows/domain-model/tariffs"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Database",
+          "items": [
+            "flows/database/index"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "CLI Tools",
+          "items": [
+            "flows/cli/index"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "API",
+          "items": [
+            "flows/api/index"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Guides",
+          "items": [
+            "flows/guides/index"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Appendix",
+          "items": [
+            "flows/appendix/installation",
+            "flows/appendix/troubleshooting"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Flux",
+      "items": [
+        "flux/index"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "MyEnergy",
+      "items": [
+        "myenergy/index"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "API Reference",
+      "items": [
+        "api-reference/index"
+      ]
+    }
+  ]
+}
