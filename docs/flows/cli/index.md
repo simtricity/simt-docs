@@ -143,8 +143,8 @@ For production access, configure DNS for wireguard if required:
 
 ```bash
 # Add to /etc/hosts or configure DNS
-10.0.0.1  flows.simtricity.com
-10.0.0.2  mediators.simtricity.com
+<internal-ip-1>  flows.simtricity.com
+<internal-ip-2>  mediators.simtricity.com
 ```
 
 ## Environment Management

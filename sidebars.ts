@@ -83,6 +83,72 @@ const sidebars: SidebarsConfig = {
       label: 'Flux',
       items: [
         'flux/index',
+        {
+          type: 'category',
+          label: 'Domain Model',
+          items: [
+            'flux/domain-model/index',
+            'flux/domain-model/devices',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Database',
+          items: [
+            'flux/database/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Controller',
+          items: [
+            'flux/controller/index',
+            'flux/controller/modes',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Devices',
+          items: [
+            'flux/devices/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Integrations',
+          items: [
+            'flux/integrations/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Deployment',
+          items: [
+            'flux/deployment/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'API',
+          items: [
+            'flux/api/index',
+            'flux/api/endpoints',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Guides',
+          items: [
+            'flux/guides/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Operations',
+          items: [
+            'flux/operations/index',
+          ],
+        },
       ],
     },
     {
