@@ -14,18 +14,21 @@ const config: Config = {
   },
   themes: [
     '@docusaurus/theme-mermaid',
-    [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      {
-        hashed: true,
-        language: ['en'],
-        indexDocs: true,
-        indexBlog: false,
-        docsRouteBasePath: '/docs',
-        highlightSearchTermsOnTargetPage: true,
-        searchBarPosition: 'right',
-      },
-    ],
+    // Only load search plugin if not in CI environment
+    ...(process.env.CI ? [] : [
+      [
+        require.resolve('@easyops-cn/docusaurus-search-local'),
+        {
+          hashed: true,
+          language: ['en'],
+          indexDocs: true,
+          indexBlog: false,
+          docsRouteBasePath: '/docs',
+          highlightSearchTermsOnTargetPage: true,
+          searchBarPosition: 'right',
+        },
+      ],
+    ]),
   ],
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
