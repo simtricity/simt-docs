@@ -34,7 +34,46 @@ const sidebars: SidebarsConfig = {
           label: 'Domain Model',
           items: [
             'flows/domain-model/index',
-            'flows/domain-model/customers',
+            'flows/domain-model/meters',
+            'flows/domain-model/data-collection',
+            'flows/domain-model/infrastructure',
+            'flows/domain-model/tariffs',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Database',
+          items: [
+            'flows/database/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'CLI Tools',
+          items: [
+            'flows/cli/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'API',
+          items: [
+            'flows/api/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Guides',
+          items: [
+            'flows/guides/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Appendix',
+          items: [
+            'flows/appendix/installation',
+            'flows/appendix/troubleshooting',
           ],
         },
       ],
